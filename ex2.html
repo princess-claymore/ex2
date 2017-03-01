@@ -7,14 +7,19 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>
-    CALCULAR MASA CORPORAL
-  </h1>
-  <form action="">
-  <label for="Calcular"> Calcular masa corporal: </label>
-  <button type="submit" onclick="()">Calcular </button>
 
-  <div id="resultado"> </div>
+  <form action="" onsubmit="return false">
+  <label for="Calcular"> <strong>  Calcular masa corporal: </strong></label> <br><br>
+  <label for="kilos"> Ingrese su peso</label>
+  <input id = "peso"  type="text"> </input> <br> <br>
+  <label for="estatura"> Ingrese su talla </label>
+  <input id = "talla"  type="text"> </input> <br> <br>
+
+  <button type="submit" onclick="calcularmasa()"> Calcular </button>
+
+  <div id="res"> </div>
+  <script src="archivos/ej2.js"> </script>
+
 
  </form>
 
